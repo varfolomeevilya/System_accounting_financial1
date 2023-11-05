@@ -26,4 +26,5 @@ public class Potential_costs {
     public void setPrice(double price) {
         this.price = price;
     }
+
 }

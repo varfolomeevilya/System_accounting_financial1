@@ -10,7 +10,9 @@ public class Wallet { // создал класс кошелек
         this.name = name;
         this.summa = summa;
     }
-
+//   public boolean add(){ //добавления кошелька
+//
+//    }
     public String getName() { // создал гетер название
         return name;
     }
@@ -26,7 +28,10 @@ public class Wallet { // создал класс кошелек
     public void setSumma(int summa) { // создал сетер сумма
         this.summa = summa;
     }
-
+    public void print(){
+        System.out.println("Name:" + name);
+        System.out.println("Summa:" + summa);
+    }
     @Override
     public String toString() {
         return "Wallet{" +

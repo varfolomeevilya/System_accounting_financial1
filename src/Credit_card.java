@@ -3,4 +3,9 @@ public class Credit_card extends Wallet { // создал класс креди�
        super(name, summa);   // есть  базовый класс  определяет конструктор
                             // то производный класс должен вызвать
    }
+   public void print(){
+       System.out.printf(" Name: %s \n ", getName());
+       System.out.printf(" Summa %s \n", getSumma());
+   }
+
 }
