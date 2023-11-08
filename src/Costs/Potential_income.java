@@ -1,3 +1,5 @@
+package Costs;
+
 public class Potential_income{ //создал класс понтециальный доход
     private int prize;  // создал два поля
     private int salary;

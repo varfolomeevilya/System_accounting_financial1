@@ -1,12 +1,14 @@
-public class Current_costs {
+package Costs;
+
+public class Potential_costs {
     private String str;
     private double price;
-    public Current_costs(){
-        this.str="Купить одежду";
-        this.price= 79.50;
+    public Potential_costs(){
+        this.str="Купить машину";
+        this.price = 1.1250000;
     }
 
-    public Current_costs(String str, double price) {
+    public Potential_costs(String str, double price) {
         this.str = str;
         this.price = price;
     }

@@ -1,3 +1,5 @@
+import Model.Wallet;
+
 // Система хранит следующую информацию:
 //        кошельки (название кошелька, сумма в нем и т.д.);
 //        кредитные карты (название карты, сумма на ней и т. д.);
@@ -17,7 +19,16 @@
 //        работы со списком потенциальных доходов
 public class Main {
     public static void main(String[] args) {
+        Wallet mywallet = new Wallet();
+        mywallet.addBill(100);
+        mywallet.addBill(2000);
+        mywallet.addBill(300);
 
+        mywallet.addCredit_cards("BTB", 25000);
+       mywallet.addCredit_cards("Visa", 50000);
+        System.out.println(mywallet.credit_cardsSumma());
+        System.out.println(mywallet.billsSumma());
+        System.out.println(mywallet.allSumma());
 
     }
 }
