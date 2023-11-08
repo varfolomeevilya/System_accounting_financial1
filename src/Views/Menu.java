@@ -65,17 +65,23 @@ public class Menu {
 //    public void onWallet1(int i){
 //        switch (i){
 //            case 1 ->{
-//                menu01();
+//               menu01();
+//                System.out.println("Ложить деньги кошелька");
 //            }
-//            case 2 ->{
-//                menu02();
+//           case 2 ->{
+//               menu02();
+//               System.out.println("Получение деньги кошелька");
+//           }
+//           case 3 ->{
+//                menu03();
+//               System.out.println("Добавление деньги в кошелька");
+//           }
+//           case 4 ->{
+//           menu04();
+//               System.out.println("Удаление информации кщшелька");
 //            }
-//            case 3 ->{
-////                menu03();
-//            }
-//
 //        }
-//    }
+//   }
 }
 
 
