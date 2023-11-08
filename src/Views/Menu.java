@@ -62,24 +62,7 @@ public class Menu {
 //        if (menu13()==13){
 //            potential_income.getSalary();}
 //    }
-//    public void onWallet1(int i){
-//        switch (i){
-//            case 1 ->{
-//                menu01();
-//            }
-//            case 2 ->{
-//                menu02();
-//            }
-//            case 3 ->{
-////                menu03();
-//            }
-//            case 4 ->{
-//                wallet.billsSumma();
-//                wallet.allSumma();
-//                wallet.deleteBill(2000);
-//            }
-//        }
-//    }
+
 }
 
 
