@@ -1,4 +1,5 @@
 import Model.Wallet;
+import Views.Menu;
 
 // Система хранит следующую информацию:
 //        кошельки (название кошелька, сумма в нем и т.д.);
@@ -29,6 +30,7 @@ public class Main {
         System.out.println(mywallet.credit_cardsSumma());
         System.out.println(mywallet.billsSumma());
         System.out.println(mywallet.allSumma());
+
 
     }
 }

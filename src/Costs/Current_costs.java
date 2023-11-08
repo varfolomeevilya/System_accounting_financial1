@@ -1,8 +1,11 @@
 package Costs;
 
+import Model.Wallet;
+
 public class Current_costs {
     private String str;
     private double price;
+    private Wallet wallet;
     public Current_costs(){
         this.str="Купить одежду";
         this.price= 79.50;
