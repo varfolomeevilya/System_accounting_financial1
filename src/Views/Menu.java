@@ -474,10 +474,10 @@ public class Menu {
         System.out.println( "7:Удаление редактирование информации кошелька");
     }
     private void menu08(){
-
+    System.out.println("8: Работа списком текущего затрат")
     }
     private void menu09(){
-
+ System.out.println("9:Работа списком текущего затрат")
     }
     private void menu10(){
         System.out.println( "10:Удаление редактирование информации кредитной карты");
@@ -486,10 +486,10 @@ public class Menu {
        System.out.println( "11: Работа со списком потенциальный затрат\n");
     }
     private void menu12(){
-
+      System.out.println( "12: Работа со списком текущих затрат\n")
     }
     private void menu13(){
-
+    System.out.println("13: Работа со списком потенциальный доход\n")
     }
 }
 
